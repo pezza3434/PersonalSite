@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Open Sans";
+$secondary-font-family: "noto serif";
+
+$post-color: #444444;
+$lighter-color:#d1d1d1;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+"global",
+        "home",
+"_header",
+"_about",
+"postindex",
+"_portfolio",
+        "bootstrap/mixins/clearfix",
+        "bootstrap/mixins/center-block",
+        "bootstrap/mixins/nav-vertical-align",
+        "bootstrap/mixins/grid-framework",
+        "bootstrap/mixins/grid",
+        "bootstrap/variables",
+        "bootstrap/grid"
+;

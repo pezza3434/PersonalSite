@@ -1,0 +1,39 @@
+.bio{
+  .title{
+    background: #f1f1f1;
+    padding: 14px 15px;
+    font-size: 18px;
+    color: #a0a0a0;
+    border-bottom: 2px solid #d3d2d2;
+  }
+
+  .bio-image img{
+    max-width:100%;
+  }
+
+  .content-area{
+    padding:20px 0px;
+  }
+
+  .skill{
+      background: #eaeaea;
+      padding: 8px 11px;
+      margin: 6px 3px;
+      display: inline-block;
+  }
+
+  .skill:hover {
+    background: #aa3939;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .skill-box{
+    background: #aa3939;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 13px;
+    margin: 10px 0px 0px;
+  }
+
+}

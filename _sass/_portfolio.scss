@@ -1,0 +1,32 @@
+.portfolio-subtext{
+  font-family: "noto serif";
+  color: #d2d1d1;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+
+#filters{
+  text-align:center;
+  padding: 36px 0px;
+
+    button {
+      background: transparent;
+      border: 0;
+      font-size: 16px;
+    }
+
+}
+
+.element-item{
+
+  margin: 20px 0px;
+
+  img{
+    display:block;
+    margin:0 auto;
+    max-width:250px;
+    padding:5px;
+    background:#eaeaea;
+  }
+}

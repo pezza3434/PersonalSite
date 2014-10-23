@@ -1,0 +1,39 @@
+html{
+  height:100%;
+}
+
+body{
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family:$base-font-family;
+}
+
+p{
+  font-family: $secondary-font-family;
+}
+
+.homepage-banner{
+  height:100%;
+  background-image:url(/images/FullSizeRender.jpg);
+  width:100%;
+  display:table;
+  background-size: cover;
+  margin-top: -82px;
+
+  .vertical{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+  }
+
+  .home-header-main{
+    font-size: 54px;
+    font-weight: bold;
+  }
+
+  .home-header-sub{
+    font-weight:lighter;
+  }
+}
+
