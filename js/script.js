@@ -12,6 +12,8 @@ $( function() {
         $container.isotope({ filter: filterValue });
     });
 
+    $container.isotope({ filter: '*' });
+
     new aboutme().init();
 
 });
