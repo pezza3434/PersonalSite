@@ -13,13 +13,22 @@ p{
   font-family: $secondary-font-family;
 }
 
+.url_index{
+  .site-header{
+
+    position:absolute;
+    left:0;
+    right:0;
+
+  }
+}
+
 .homepage-banner{
   height:100%;
   background-image:url(/images/alexbackground.jpg);
   width:100%;
   display:table;
   background-size: cover;
-  margin-top: -82px;
 
   .vertical{
     display:table-cell;
@@ -34,6 +43,20 @@ p{
 
   .home-header-sub{
     font-weight:lighter;
+  }
+}
+
+.social-icons{
+
+  display:inline;
+
+  a{
+    padding:0;
+    margin:0;
+  }
+
+  i{
+    padding: 0px 4px;
   }
 }
 

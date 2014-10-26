@@ -1,4 +1,4 @@
-$( function() {
+$(window).load(function(){
     // init Isotope
     var $container = $('.isotope').isotope({
         itemSelector: '.element-item',
@@ -15,6 +15,7 @@ $( function() {
     $container.isotope({ filter: '*' });
 
     new aboutme().init();
+
 
 });
 
