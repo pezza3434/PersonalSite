@@ -1,4 +1,29 @@
 $(window).load(function(){
+    new isotope();
+    new aboutme().init();
+    new portfolio().init();
+
+
+});
+
+var portfolio = function(){
+    this.init = function(){
+        this.event_listeners();
+    };
+
+    this.event_listeners = function(){
+        $('.close').on('click', function(){
+           $('.adm-app-portfolio').slideUp(500);
+        });
+
+        $('.adm-link').on('click', function(){
+            $('.adm-app-portfolio').slideToggle(500);
+
+        });
+    };
+}
+
+var isotope = function(){
     // init Isotope
     var $container = $('.isotope').isotope({
         itemSelector: '.element-item',
@@ -13,11 +38,7 @@ $(window).load(function(){
     });
 
     $container.isotope({ filter: '*' });
-
-    new aboutme().init();
-
-
-});
+}
 
 var aboutme = function(){
 
