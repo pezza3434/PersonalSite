@@ -34,7 +34,20 @@
 .portfolio-showcase{
   background:#f3f3f3;
   padding: 40px 0px;
+  display:none;
   img.large{
     border: 6px solid #eaeaea;
   }
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  color: #aa3939;
+}
+
+.close:hover{
+  cursor:pointer;
 }

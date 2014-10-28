@@ -7,19 +7,38 @@ $(window).load(function(){
 });
 
 var portfolio = function(){
+
+    var _self = this;
+
+    var previous_selected_class = null;
+
     this.init = function(){
         this.event_listeners();
     };
 
     this.event_listeners = function(){
+        $('.showcase-item').on('click', function(){
+            _self.toggle_showcase($(this));
+
+        });
+
         $('.close').on('click', function(){
-           $('.adm-app-portfolio').slideUp(500);
+            $(previous_selected_class).slideUp();
         });
+    };
 
-        $('.adm-link').on('click', function(){
-            $('.adm-app-portfolio').slideToggle(500);
+    this.toggle_showcase = function(element){
 
-        });
+        var class_name = '.' + element.attr('data-showcase') + '-app-portfolio';
+
+        if (class_name !== previous_selected_class){
+            $(previous_selected_class).slideUp();
+            $(class_name).slideToggle();
+        } else {
+            $(class_name).slideToggle();
+        }
+        previous_selected_class = class_name;
+
     };
 }
 
