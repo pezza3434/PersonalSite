@@ -77,7 +77,7 @@ var aboutme = function(){
 
     this.toggle_dropdown = function(element){
 
-        var class_name = '.' + element.attr('data-box');
+        var class_name = '.skill-box.' + element.attr('data-box');
 
         if (class_name !== previous_selected_class){
             $(previous_selected_class).slideUp();

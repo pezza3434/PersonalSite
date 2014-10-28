@@ -1,22 +1,27 @@
 .bio{
   .title{
-    background: #f1f1f1;
     padding: 14px 15px;
     font-size: 18px;
     color: #a0a0a0;
     border-bottom: 2px solid #d3d2d2;
   }
 
-  .bio-image img{
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    width: 220px;
-    height: 220px;
-    display:block;
-    margin:0 auto;
+  .bio-image{
+
+    margin-bottom:20px;
+
+    img{
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      width: 220px;
+      height: 220px;
+      display:block;
+      margin:0 auto;
+    }
+
   }
 
   .content-area{
@@ -28,6 +33,11 @@
       padding: 8px 11px;
       margin: 6px 3px;
       display: inline-block;
+      width:47%;
+      border-radius:2px;
+      font-size:12px;
+      color: #ffffff;
+
   }
 
   .skill:hover {
@@ -42,6 +52,34 @@
     font-size: 12px;
     padding: 13px;
     margin: 10px 0px 0px;
+  }
+
+  .skill.html{
+    background: #E34F42;
+  }
+
+  .skill.css{
+    background: #80628B;
+  }
+
+  .skill.javascript{
+    background: #C6CCD5;
+  }
+
+  .skill.jquery{
+    background: #4BBFA5;
+  }
+
+  .skill.angular{
+    background: #F39A3E;
+  }
+
+  .skill.php{
+    background: #8892BF;
+  }
+
+  .skill.more{
+    background: #2DA3B6;
   }
 
 }
