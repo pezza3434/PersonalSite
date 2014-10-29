@@ -37,7 +37,25 @@
       border-radius:2px;
       font-size:12px;
       color: #ffffff;
+  }
 
+  .interest{
+    background: #AA3939;
+    padding: 8px 11px;
+    margin: 6px 0px;
+    display: inline-block;
+    width:49%;
+    border-radius:2px;
+    font-size:12px;
+    color: #ffffff;
+
+    &.large{
+      width:100%
+    }
+
+    &.right{
+      float:right;
+    }
   }
 
   .skill:hover {
