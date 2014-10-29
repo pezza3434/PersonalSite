@@ -17,3 +17,28 @@
   color: $post-color;
   letter-spacing: -1px;
 }
+
+.post-footer{
+
+  width: 800px;
+  margin: 38px auto;
+  width:800px;
+
+  img{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display:block;
+    margin:0 auto;
+    border: 6px solid #eaeaea;
+  }
+
+  .desc{
+    margin-top: 25px;
+    color: #bfbfbf;
+  }
+}
