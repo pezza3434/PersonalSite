@@ -4,7 +4,7 @@ title:  "Hello World!"
 date:   2014-10-04 11:02:00
 categories: Misc
 ---
-Hello World!
+**Hello World!**
 
 Welcome to my personal site! I'm a web developer and web developers are supposed to have a personal website right?
 

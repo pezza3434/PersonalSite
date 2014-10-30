@@ -32,13 +32,14 @@ p{
 
   .vertical{
     display:table-cell;
-    vertical-align:middle;
     text-align:center;
+    padding-top:180px;
   }
 
   .home-header-main{
     font-size: 54px;
-    font-weight: bold;
+    font-weight: lighter;
+    color:#444444;
   }
 
   .home-header-sub{
@@ -59,4 +60,11 @@ p{
     padding: 0px 4px;
   }
 }
+
+@media (max-width: 600px) {
+  .site-title{
+    display:none;
+  }
+}
+
 

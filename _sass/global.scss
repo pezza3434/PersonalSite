@@ -22,11 +22,17 @@ a:hover{
 p{
   font-family: $secondary-font-family;
   color:#3d3d3d;
+  line-height:1.6em;
 }
 
 h1,h2,h3,h4{
   margin:0px;
   color:$post-color;
+}
+
+hr {
+  color: #eaeaea;
+  border: 1px dashed;
 }
 
 #fullstrip{

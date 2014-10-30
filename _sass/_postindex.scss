@@ -1,15 +1,28 @@
 .post-name{
   padding:9px 0px 0px;
     a{
+      color:#444444;
+    }
+
+    a:hover{
+      color:#aa3939;
     }
 }
 
 .post-date{
+
+  i {
+    padding-right: 10px;
+  }
+
   color:$lighter-color;
 }
 
 .post-excerpt{
   font-size:18px;
+  p{
+      margin: 7px 0px;
+  }
 }
 
 .post-wrapper{
@@ -22,7 +35,16 @@
 
   width: 800px;
   margin: 38px auto;
-  width:800px;
+  width:850px;
+  border-top: 2px solid #eaeaea;
+  padding-top:32px;
+
+  .title{
+    color:#444444;
+    display:block;
+    font-weight:bold;
+    font-size:24px;
+  }
 
   img{
     background-position: 50% 50%;
@@ -38,7 +60,9 @@
   }
 
   .desc{
-    margin-top: 25px;
-    color: #bfbfbf;
+    margin-top: 7px;
+    margin-left: 0px;
+    color: #818181;
+    font-size: 16px;
   }
 }
