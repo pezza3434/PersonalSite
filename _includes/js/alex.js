@@ -2,7 +2,7 @@ $( function() {
     // init Isotope
     var $container = $('.isotope').isotope({
         itemSelector: '.element-item',
-        layoutMode: 'fitRows',
+        layoutMode: 'fitColumns'
 
     });
 
