@@ -4,12 +4,14 @@ title:  "Hello World!"
 date:   2014-10-04 11:02:00
 categories: Misc
 ---
-**Hello World!**
+<p class="lead">Hello World!</p>
 
-Welcome to my personal site! I'm a web developer and web developers are supposed to have a personal website right?
+<p class="lead">Welcome to my personal site! I'm a web developer and web developers are supposed to have a personal website right?</p>
 
-Anyhow, I've just finished the finishing touches (for now) and was pondering on what my first blog post on here should be. Over the past few months I've been writing
-down ideas for technical posts, however for now I will begin with a post I originally wrote last year. At this point, I had just finished interning at a small website development agency and was yet to complete my final year of law school.
+Anyhow, I've just finished the finishing touches (for now) and was pondering what my first blog post on here should be. Over the past few months I've been writing
+down ideas for technical posts, however for now I will begin with a post I originally wrote over a year and a half ago. At this point, I had just finished working at a small website development agency and was yet to complete my final year of law school.
+
+This post also explains why I chose to study Law and not Computer Science at University.
 
 The original version of this text can be found [here](http://www.tkswebsitedesign.co.uk/work-placements-at-tkstarley-the-inside-scoop/#more-3587). Below is an identical copy:
 
