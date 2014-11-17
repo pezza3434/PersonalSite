@@ -40,9 +40,12 @@ hr {
   width: 100%;
   height: 150px;
   background: #000000;
-  background-image: url(/images/FullSizeRender.jpg);
-  background-position-y: 1350px;
+  background-image: url(/images/pagebackground.jpg);
+  background-position-y: -900px;
   margin: 0px 0px 36px;
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position:bottom;
 
   .title{
 
@@ -61,3 +64,17 @@ h4{font-size:18px;}
 .lead{
   font-size:20px;
 }
+
+
+@media (max-width: $screen-sm) {
+  #fullstrip{
+
+    height:116px;
+
+    .title{
+      margin-top:35px;
+    }
+  }
+
+}
+

@@ -62,9 +62,48 @@ p{
   }
 }
 
-@media (max-width: 600px) {
+.site-links{
+  .home{
+    display:none;
+  }
+}
+
+@media (max-width: $screen-sm) {
+  .homepage-banner{
+    .home-header-main{
+      color:#ffffff;
+    }
+    .home-header-sub{
+      color:#ffffff;
+    }
+  }
+
   .site-title{
     display:none;
+  }
+
+  .site-links{
+    .home{
+      display:inline-block;
+    }
+  }
+
+  .site-links a{
+    font-size:16px;
+  }
+
+  .social-icons{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .site-header{
+    .container{
+      margin:0px;
+      padding:0px;
+    }
   }
 }
 

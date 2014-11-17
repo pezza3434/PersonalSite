@@ -26,3 +26,14 @@ nav{
   color:$post-color;
 
 }
+
+@media (max-width: $screen-sm) {
+  nav{
+    float:none;
+  }
+
+  .site-links{
+    display: block;
+    text-align: center;
+  }
+}

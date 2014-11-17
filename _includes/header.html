@@ -7,15 +7,18 @@
     <nav class="site-nav">
 
         <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-
+            <span class="site-links">
+                <a class="home" href="{{ site.baseurl }}/">Home</a>
+                {% for page in site.pages %}
+                {% if page.title %}
+                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                {% endif %}
+                {% endfor %}
+            </span>
             <div class="social-icons">
                 <a href="http://instagram.com/pezza3434"><i class="fa fa-instagram"></i></a>
                 <a href="http://uk.linkedin.com/pub/alexander-perry/49/a91/205/"><i class="fa fa-linkedin-square"></i></a>
+                <a href="http://github.com/pezza3434"><i class="fa fa-github-alt"></i></a>
                 <a href="mailto:alexperry2@gmail.com"><i class="fa fa-envelope"></i></a>
             </div>
         </div>

@@ -101,3 +101,11 @@
   }
 
 }
+
+@media (max-width: $screen-sm) {
+  .bio{
+    .skill {
+      width:100%;
+    }
+  }
+}
