@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AngularJS - Formatters and Parsers"
-date:   2014-11-10 11:02:00
+date:   2014-12-10 11:02:00
 categories: angularjs
 ---
 
