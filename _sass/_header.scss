@@ -24,7 +24,23 @@ nav{
   font-weight:300;
   text-decoration:none;
   color:$post-color;
+}
 
+.instagram-social:hover{
+  color:#E34F42;
+}
+
+.linkedin-social:hover{
+  color:#2DA3B6;
+
+}
+
+.github-social:hover{
+  color:#80628B;
+}
+
+.mailme-social:hover{
+  color:#4BBFA5;
 }
 
 @media (max-width: $screen-sm) {
