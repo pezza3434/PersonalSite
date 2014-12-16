@@ -3,6 +3,7 @@ layout: post
 title:  "AngularJS - Formatters and Parsers"
 date:   2014-12-10 11:02:00
 categories: angularjs
+description: Learn how Formatters and Parsers work in AngularJS. A useful tool when dealing with information coming from and going to the model.
 ---
 
 <p class="lead">Parsers and Formatters are a hidden gem within Angular and were something that I was definitely impressed with when I first stumbled upon them.</p>
