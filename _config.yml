@@ -12,4 +12,6 @@ include: [js, images, isotope.min.js, script.js, jquery.min.js]
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 
