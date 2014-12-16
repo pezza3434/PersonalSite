@@ -31,20 +31,22 @@
   .skill{
       background: #eaeaea;
       padding: 8px 11px;
-      margin: 6px 3px;
-      display: inline-block;
-      width:47%;
+      margin: 6px 0px;
+      display: block;
       border-radius:2px;
       font-size:12px;
       color: #ffffff;
+
+    i{
+      float:right;
+    }
   }
 
   .interest{
     background: #AA3939;
     padding: 8px 11px;
     margin: 6px 0px;
-    display: inline-block;
-    width:49%;
+    display: block;
     border-radius:2px;
     font-size:12px;
     color: #ffffff;
