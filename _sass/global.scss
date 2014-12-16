@@ -38,7 +38,6 @@ hr {
 #fullstrip{
 
   width: 100%;
-  height: 150px;
   background: #000000;
   background-image: url(/images/pagebackground.jpg);
   background-position-y: -900px;
@@ -49,10 +48,10 @@ hr {
 
   .title{
 
-    margin-top: 50px;
     font-size: 32px;
     font-weight: bold;
     color: #ffffff;
+    padding:50px 0px;
   }
 }
 
@@ -67,18 +66,5 @@ h4{font-size:18px;}
 
 footer{
   height:70px
-}
-
-
-@media (max-width: $screen-sm) {
-  #fullstrip{
-
-    height:116px;
-
-    .title{
-      margin-top:35px;
-    }
-  }
-
 }
 
