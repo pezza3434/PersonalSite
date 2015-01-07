@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Goals for 2015"
+date:   2015-01-07 23:00:00
+categories: Misc
+---
+<p class="lead">I’ve been meaning to write this post for a few days now. I wanted to write a small summary about what I would like to achieve by the end of the year. I can then refer back to this by December and see how much things panned out as expected.
+</p>
+
+But first of all some exciting news….
+
+**I’m moving to Manchester!** I’ve been lucky enough to land a position working at laterooms.com as a front-end developer. I’ve wanted to move to Manchester for a couple of years now and I’ve slowly fallen in love with the city. Vanessa and I have also secured an apartment in Salford Quays so it’s all go go go!
+
+So what would I like to achieve this year in terms of my career? I would like to be a huge amount better at what I do. Since I’ve been working for Codeweavers my knowledge and skills have gone through the roof, and I would really like to maintain this enthusiasm and rate of learning. Just a few hours ago I was browsing through code that I wrote six months ago and it’s not a pretty sight – but it’s really good to see how far I’ve come recently.
+
+In terms of technical skills, I’m expecting to be doing a lot of work with node.js, express and other associated frameworks and technologies at my new job. Therefore, I would like to think that by the end of the year I will have a very good understanding of these technologies and have the ability to use them at a high level of competence. I’ve been interested in learning ‘javascript for the back-end’ for a long time now and it’s exciting to have the opportunity to learn a lot about it and to practice using it in a working environment.
+
+I would also like to continue with my side projects this coming year. I’m still maintaining the web app for ADM Plumbing which is coming along nicely and I’ve been continuing to improve my Instagram API app which has been a fun angular experiment. Another note of interest is that Invision are on the brink of releasing version 4.0 of their forum system which is currently still in beta. A part of me is unsure about how popular forum systems are these days, however I’m thinking about either releasing a new theme, or upgrading one of my older themes to the new system to gauge what the interest will be like.
+
+My main personal goal this year is to get back to the gym and playing squash on a regular basis. My fitness has gone rapidly downhill this year while I’ve been focusing on work and this is something I would definitely like to improve back to what it was.
+
+On a leaving note, I went walking around the Lake District this Christmas – we were absolutely blessed by the weather. Take a look:
+
+<div class="row">
+
+<div class="col-xs-6 col-sm-4"><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/xKNorCwAMc/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">More pictures of nature. #lakedistrict</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Alex Perry (@pezza3434) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-12-28T17:56:53+00:00">Dec 12, 2014 at 9:56am PST</time></p></div></blockquote>
+                      <script async defer src="//platform.instagram.com/en_US/embeds.js"></script></div>
+<div class="col-xs-6 col-sm-4"><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/xJm5XIQAGw/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">Morning walk at the lakes! #lakedistrict</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Alex Perry (@pezza3434) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-12-28T12:18:23+00:00">Dec 12, 2014 at 4:18am PST</time></p></div></blockquote>
+                      <script async defer src="//platform.instagram.com/en_US/embeds.js"></script></div>
+
+
+</div>
+
+
+
+
