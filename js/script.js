@@ -40,7 +40,7 @@ var portfolio = function(){
         previous_selected_class = class_name;
 
     };
-}
+};
 
 var isotope = function(){
     // init Isotope
@@ -54,9 +54,14 @@ var isotope = function(){
     $('#filters').on( 'click', 'button', function() {
         var filterValue = $( this ).attr('data-filter');
         $container.isotope({ filter: filterValue });
+
+        if($('.portfolio-showcase').is(':visible')){
+            $('.portfolio-showcase').slideUp();
+        }
+
     });
 
-    $container.isotope({ filter: '*' });
+    $container.isotope({ filter: '.websites' });
 }
 
 var aboutme = function(){
