@@ -3,7 +3,7 @@ layout: post
 title:  "Bluebird – Promises in NodeJS"
 date:   2015-03-25 20:02:00
 categories: node
-description: Learn how promises work in nodeJS and how the Bluebird node module can help make asynchronous easy.
+description: Learn how promises work in nodeJS and how the Bluebird node module can help make asynchronous code easy.
 ---
 
 <p class="lead">Promises are a way of controlling flow in your asynchronous code. Promises help you maintain clean, readable and robust code.</p>
@@ -95,10 +95,10 @@ You see that it’s easy to create functions that return a promise. This is exce
 ```javascript
 //routes/index.js
 var router = require('express').Router();
-var getPost = require('../utils/getFileExcerpt')
+var getFileExcerpt = require('../utils/getFileExcerpt')
 
 router.get('/', function(){
-	getPost.then(function(fileExcerpt){
+	getFileExcerpt.then(function(fileExcerpt){
 		res.json({message: fileExcerpt});
 	});
 });

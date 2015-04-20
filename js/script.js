@@ -2,8 +2,6 @@ $(window).load(function(){
     new isotope();
     new aboutme().init();
     new portfolio().init();
-
-
 });
 
 var portfolio = function(){

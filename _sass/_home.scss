@@ -30,7 +30,7 @@ p{
 
 .homepage-banner{
   height:100%;
-  background-image:url(/images/alexbackground.jpg);
+  background-image:url(/images/alexbackground-optimised-small.jpg);
   width:100%;
   display:table;
   background-size: cover;
@@ -109,6 +109,26 @@ p{
       padding:0px;
     }
   }
+}
+
+//custom media queries for homepage image
+
+@media (max-width: 500px) {
+  .homepage-banner{
+    background-image:url(/images/alexbackground-optimised-small.jpg);
+  }
+}
+@media (max-width: 750px) {
+  .homepage-banner{
+    background-image:url(/images/alexbackground-optimised-medium.jpg);
+  }
+
+}
+@media (min-width: 751px) {
+  .homepage-banner{
+    background-image:url(/images/alexbackground-optimised.jpg);
+  }
+
 }
 
 
