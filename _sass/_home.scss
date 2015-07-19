@@ -73,14 +73,6 @@ p{
 }
 
 @media (max-width: $screen-sm) {
-  .homepage-banner{
-    .home-header-main{
-      color:#ffffff;
-    }
-    .home-header-sub{
-      color:#ffffff;
-    }
-  }
 
   .site-title{
     display:none;
@@ -111,6 +103,20 @@ p{
   }
 }
 
+@media (max-width: $screen-sm) {
+    .homepage-banner .vertical {
+        padding-top:90px;
+    }
+    .homepage-banner{
+      .home-header-main{
+        font-size: 40px;
+      }
+      .home-header-sub{
+        font-size:12px;
+      }
+    }
+}
+
 //custom media queries for homepage image
 
 @media (max-width: 500px) {
@@ -130,5 +136,3 @@ p{
   }
 
 }
-
-
