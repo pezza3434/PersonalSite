@@ -65,6 +65,40 @@
   }
 }
 
+.pagination {
+    text-align:center;
+    position:relative;
+    .previous {
+        float:left;
+        border: 1px solid #d1d1d1;
+        border-radius: 4px;
+        padding: 9px;
+        color: #d1d1d1;
+        &:hover {
+            border: 1px solid #444;
+            color: #444;
+            text-decoration:none;
+        }
+    }
+   .next {
+       float:right;
+       border: 1px solid #d1d1d1;
+       border-radius: 4px;
+       padding: 9px;
+       color: #d1d1d1;
+       &:hover {
+           border: 1px solid #444;
+           color: #444;
+           text-decoration:none;
+       }
+   }
+   .page_number {
+       color:#d1d1d1;
+       padding-top:8px;
+       display:inline-block;
+   }
+}
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #AA3939;
@@ -82,4 +116,14 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+@media (max-width: $screen-xs) {
+    .pagination {
+
+        .previous, .next, .page_number {
+            font-size:11px;
+        }
+
+    }
 }

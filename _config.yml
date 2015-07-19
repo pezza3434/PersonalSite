@@ -1,17 +1,14 @@
 # Site settings
 title: Alexander Perry
 email: alexperry2@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Alex Perry is a front-end web developer based in Manchester. He blogs about all sorts of tech related things.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://alexperry.io" # the base hostname & protocol for your site
 twitter_username: pezza1212
 github_username:  pezza3434
 include: [js, images, isotope.min.js, script.js, jquery.min.js]
-
-
+paginate: 5
+paginate_path: "/blog/page:num"
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
-

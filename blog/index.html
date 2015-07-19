@@ -1,0 +1,38 @@
+---
+title: Blog
+layout: default
+---
+
+<div id="fullstrip">
+    <div class="container">
+        <div class="title">{{ page.title }}</div>
+    </div>
+</div>
+
+<div class="container">
+        {% for post in paginator.posts %}
+        <div class="post-wrapper">
+            <h1 class="post-name"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            <div class="post-date"><i class="fa fa-calendar"></i>{{ post.date | date: '%B %d, %Y' }}</div>
+            <div class="post-excerpt">
+                <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </ul>
+
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">← Newer Posts</a>
+      {% else %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">← Newer Posts</a>
+
+      {% endif %}
+      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Older Posts →</a>
+      {% else %}
+      {% endif %}
+    </div>
+</div>
