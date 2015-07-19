@@ -81,4 +81,14 @@
             display: none;
         }
     }
+    .element-item {
+        margin: 15px 0;
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 128px;
+            padding: 5px;
+            background: #eaeaea;
+        }
+    }
 }
