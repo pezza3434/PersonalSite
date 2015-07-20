@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Array methods: Dramatically improve your javascript iteration"
-date:   2015-06-08 19:02:00
-categories: personal
+date:   2015-07-19 19:02:00
+categories: javascript
 description: Dramatically improve your javascript iteration by learning the map, reduce and filter javascript array methods.
 ---
 
