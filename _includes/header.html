@@ -8,12 +8,10 @@
 
         <div class="trigger">
             <span class="site-links">
-                <a class="home" href="{{ site.baseurl }}/">Home</a>
-                {% for page in site.pages %}
-                {% if page.title %}
-                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                {% endif %}
-                {% endfor %}
+                <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+                <a class="page-link" href="{{ site.baseurl }}/about">About</a>
+                <a class="page-link" href="{{ site.baseurl }}/blog">Blog</a>
+                <a class="page-link" href="{{ site.baseurl }}/portfolio">Portfolio</a>
             </span>
             <div class="social-icons">
                 <a class="instagram-social" href="http://instagram.com/pezza3434" target="_blank"><i class="fa fa-instagram"></i></a>
