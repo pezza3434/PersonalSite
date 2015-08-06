@@ -8,7 +8,7 @@ description: A complete guide to all the basics and everything you need to know 
 
 <p class="lead">When I first made the move to node, one of the first things that I struggled to get my head around was the concept of middleware. </p> Before node my only experience with server side coding was PHP; I’ve used both Codeigniter and Laravel and I cant think of anything similar in these frameworks. Today, I hope to leave you with a clear understanding of what exactly middleware is.
 
-### What is middleware
+### What is middleware?
 
 Fundamental to Node.js and express is middleware. You will use middleware all the time in express and a lot of your logic will live inside of them. Middleware has a strict signature:
 
