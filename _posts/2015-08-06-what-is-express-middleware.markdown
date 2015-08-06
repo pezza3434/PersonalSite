@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is express middleware"
+title:  "What is express middleware?"
 date:   2015-08-06 20:02:00
 categories: javascript
 description: A complete guide to all the basics and everything you need to know about express middleware.
