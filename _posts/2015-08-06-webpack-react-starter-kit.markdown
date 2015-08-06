@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Webpack and React starter kit"
-date:   2015-08-16 19:02:00
+date:   2015-08-06 19:02:00
 categories: javascript
 description: A react and webpack starter kit to get you up on your feet using the two technologies as quickly as possible.
 ---
