@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Node v4"
+date:   2015-09-08 21:02:00
+categories: javascript
+description: Node v4 has been released.
+---
+
+<p class="lead">Unless you’ve been hiding under a rock you will know that Node.js and IO.js have been converging.</p>
+
+This is great news for the community as it means that we don’t have to choose between one or the other; IO.js has some great features which Node.js did not, notably (for myself) ES6 features.
+
+I’ve been following the [Node v4 timeline](https://github.com/nodejs/node/issues/2522) for a few days and I’m really excited to announce that Node v4 has just been released! This is good news, and it really doesn’t seem long ago at all when the merge was announced.
+
+Going back to what I was saying before about ES6, Node v4 supports some of my favorite new features which you can [see here](https://nodejs.org/en/docs/es6/).
+
+Time will tell how this latest version is received. At Laterooms (where I work currently) we will be certainly be doing some load and throughput testing before we make the switch
+
+### Lets get it installed (these instructions apply for mac users)
+
+I currently use NVM (node version manager) to quickly switch between node versions, if you’re not using it already, I’d highly recommend.
+
+NVM doesn’t support Node v4 out of the box but you can manually add it in really easily.
+
+Go to [https://nodejs.org/download/release/v4.0.0/](https://nodejs.org/download/release/v4.0.0/) and download the v4 .tar.gz file. Next, unpackage the file and place it in:
+
+```bash
+$NVM_DIR/versions/node/v4.0.0
+```
+
+$nvm can be pasted directly into your command line if you’re not sure what you directory is. For me, the versions and node file did not exist so you may have to create these.
+
+Next, open up the command line and run
+
+```bash
+nvm install 4.0.0
+```
+
+This took a bit of time. Next simply switch to node v4:
+
+```bash
+nvm use 4
+```
+
+And you’re done!
+
+I’ve only just installed this myself and so I’m off to have a play. Have fun!
