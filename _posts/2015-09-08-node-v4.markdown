@@ -42,6 +42,12 @@ This took a bit of time. Next simply switch to node v4:
 nvm use 4
 ```
 
+This will change your current terminal session to use 4.0.0. If you want to use it permanently run:
+
+```bash
+nvm alias default 4.0.0
+```
+
 And you’re done!
 
 I’ve only just installed this myself and so I’m off to have a play. Have fun!
