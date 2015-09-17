@@ -36,7 +36,7 @@ fs.readFile('directory/file-to-read', function(err, file){
 				//handle error
 			} else {
 				//new directory has been made
-				fs.writeFile('directory/new-directory/message.txt', function(err, file){
+		fs.writeFile('directory/new-directory/message.txt', function(err, file){
 					if(error) {
 						// handle error
 					} else {
@@ -71,7 +71,7 @@ Promises provide us with a cleaner and more robust way of handling async code. I
 
 Promises also easily enable you to separate out your code (you will want to do this a lot with your node application) into different files.
 
-For example: 
+For example:
 
 ```javascript
 function readFileandMakeDirectory(){
@@ -89,8 +89,8 @@ readFileandMakeDirectory()
 ```
 
 
-	
-You see that it’s easy to create functions that return a promise. This is exceptionally useful when you’re splitting your code into different files with module.exports. For example you may have a route that reads a file, grabs an excerpt of its content, and then responds with the file excerpt as json. You could use a function which returns a promise to split out your code into separate components: 
+
+You see that it’s easy to create functions that return a promise. This is exceptionally useful when you’re splitting your code into different files with module.exports. For example you may have a route that reads a file, grabs an excerpt of its content, and then responds with the file excerpt as json. You could use a function which returns a promise to split out your code into separate components:
 
 ```javascript
 //routes/index.js
@@ -138,8 +138,8 @@ fs.readFileAsync('directory/file-to-read')
 	});
 ```
 
-	
-You can use the catch to handle your error. 
+
+You can use the catch to handle your error.
 
 ### But the module I want to use does not return a promise
 
@@ -195,6 +195,5 @@ it('should do something with some async code', function(done){
 });
 ```
 
-Promises are extremely useful and something that I would definitely recommend to take some time to look at when dealing with asynchronous code in node. 
+Promises are extremely useful and something that I would definitely recommend to take some time to look at when dealing with asynchronous code in node.
 For further reading, I would recommend heading over to the Bluebird API docs and seeing what else you can do with this brilliant promise library.
-

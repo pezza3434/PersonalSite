@@ -8,7 +8,7 @@
         border-radius: 2px;
         border-bottom: 2px solid #882d2d;
         width: 27%;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: bold;
         cursor:pointer;
         &:hover {
@@ -68,8 +68,8 @@
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         display: block;
         margin: 0 auto;
         border: 6px solid #eaeaea;
@@ -114,6 +114,7 @@
         display: inline-block;
     }
 }
+
 blockquote {
     background: #f9f9f9;
     border-left: 10px solid #aa3939;

@@ -4,12 +4,12 @@ layout: default
 ---
 
 <div id="fullstrip">
-    <div class="container">
+    <div class="container narrow-container">
         <div class="title">{{ page.title }}</div>
     </div>
 </div>
 
-<div class="container">
+<div class="container narrow-container">
         {% for post in paginator.posts %}
         <div class="post-wrapper">
             <h1 class="post-name"><a href="{{ post.url }}">{{ post.title }}</a></h1>

@@ -1,70 +1,77 @@
-html{
-  height:100%;
+html {
+    height: 100%;
 }
-
-body{
-  height:100%;
-  padding:0;
-  margin:0;
-  font-family:$base-font-family;
-  border-top: 4px solid #444444;
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: $base-font-family;
+    border-top: 4px solid #444;
+    font-size:14px;
 }
-
-a{
-  text-decoration:none;
-  color:#aa3939;
+a {
+    text-decoration: none;
+    color: #aa3939;
 }
-
-a:hover{
-  text-decoration:underline;
+a:hover {
+    text-decoration: underline;
 }
-
-p{
-  font-family: $secondary-font-family;
-  color:#3d3d3d;
-  line-height:1.6em;
+p {
+    font-family: $secondary-font-family;
+    color: #3d3d3d;
+    line-height: 1.5;
+    font-size: 20px;
 }
-
-h1,h2,h3,h4{
-  margin:0px;
-  color:$post-color;
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    color: $post-color;
 }
-
 hr {
-  color: #eaeaea;
-  border: 1px dashed;
+    color: #eaeaea;
+    border: 1px dashed;
 }
+.narrow-container {
+    max-width: 700px;
+}
+#fullstrip {
+    width: 100%;
+    background: #000;
+    background-image: url("/images/pagebackground.jpg");
+    background-position-y: -900px;
+    margin: 0 0 36px;
 
-#fullstrip{
-
-  width: 100%;
-  background: #000000;
-  background-image: url(/images/pagebackground.jpg);
-  background-position-y: -900px;
-  margin: 0px 0px 36px;
-//  background-size:100%;
-  background-repeat:no-repeat;
-  background-position:bottom;
-
-  .title{
-
+    //  background-size:100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #fff;
+        padding: 50px 0;
+    }
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 18px;
+}
+.lead {
     font-size: 32px;
-    font-weight: bold;
-    color: #ffffff;
-    padding:50px 0px;
-  }
+}
+footer {
+    height: 70px;
 }
 
-h1{font-size:36px;}
-h2{font-size:30px;}
-h3{font-size:24px;}
-h4{font-size:18px;}
-
-.lead{
-  font-size:20px;
+code[class*="language-"], pre[class*="language-"] {
+    font-size:1em;
 }
-
-footer{
-  height:70px
-}
-

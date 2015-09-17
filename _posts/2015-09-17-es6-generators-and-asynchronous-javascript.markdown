@@ -220,8 +220,8 @@ Lets write this in a synchronous way with generators:
 return Promise.coroutine(function* () {
     var rates = (someCondition) ? undefined : yield data.rates(req);
     //Notice here how rates can just be passed into findCheapestDouble()
-    var ratesDataWithCheapestDouble = utils.findCheapestDouble(rates);
-    var groupedRatesData = groupRates(ratesDataWithCheapestDouble, req, config, viewModel);
+    var cheapestDouble = utils.findCheapestDouble(rates);
+    var groupedRatesData = groupRates(cheapestDouble, req, config, viewModel);
     var hotelDetails = (someCondition) ? yield data.hotelDetails(req) : undefined;
     //All nesting has been removed
     return {
