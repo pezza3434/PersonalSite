@@ -1,12 +1,12 @@
 # Site settings
 title: Alexander Perry
-description: Alexander perry is a web developer and blogger based in manchester. He blogs about all things Javascript, including React, Angular, Node, and core Javascript. 
+description: Alexander perry is a web developer and blogger based in manchester. He blogs about all things Javascript, including React, Angular, Node, and core Javascript.
 email: alexperry2@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://alexperry.io" # the base hostname & protocol for your site
 twitter_username: pezza1212
 github_username:  pezza3434
-include: [js, images, isotope.min.js, script.js, jquery.min.js]
+include: [js, images, isotope.min.js, script.js, jquery.min.js, horu]
 paginate: 5
 paginate_path: "/blog/page:num"
 # Build settings
