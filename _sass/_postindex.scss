@@ -115,6 +115,26 @@
     }
 }
 
+.post-social-icons {
+
+    position:relative;
+
+    .facebook {
+        // background: #386db8;
+        display:inline-block;
+        position:absolute;
+        top:0px;
+        padding-left:15px;
+    }
+    .twitter {
+        // background: #a0d7e3;
+        display:inline-block;
+    }
+    .hacker-news {
+        display:inline-block;
+    }
+}
+
 blockquote {
     background: #f9f9f9;
     border-left: 10px solid #aa3939;
