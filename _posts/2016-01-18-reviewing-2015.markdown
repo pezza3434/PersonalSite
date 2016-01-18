@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Reviewing 2015"
+date:   2016-01-18 09:02:00
+categories: personal
+description: A look at what goals I achieved in 2015 and what I would like to achieve in 2016
+---
+
+<p class="lead">This post is very personal, but you’re welcome to read it if you wish….</p>
+
+[This time last year](http://alexperry.io/misc/2015/01/07/goals-for-2015.html) I wrote a short post on my goals for 2015. In true ‘new years’ fashion I thought it would be good to review this post and see if I actually achieved anything that I set out to.
+
+I’m a big fan of keeping track of progress on projects on a granular level. I use [Trello](https://trello.com/) for my personal projects and we use [Leankit](http://leankit.com/) at work; I think that the beginning of the new year is a really good time to take a high level look at the previous 12 months.
+
+>
+>"So what would I like to achieve this year in terms of my career? I would like to be a huge amount better at what I do."
+>
+
+One of the things that I mentioned in my previous post was that I wanted to be a huge amount better at what I do. Technically, I wanted to improve my knowledge of fundamental Javascript and technologies such as node.js, express and other frameworks. While trying to be modest, I’m incredibly happy with my progress in that area last year. I’m lucky to be surrounded by talented developers at [Laterooms](http://laterooms.com) and this has rapidly improved my ability.
+
+I was recently at a careers fair at Manchester University representing Laterooms. A student asked me to give him one reason why he should get a job as a programmer rather than start his own company. I honestly believe that as a junior programmer beginning your career the advice is obvious…
+
+**By getting a job at first, and working with others, you’re knowledge will dramatically improve much faster than it possibly could if you were learning on your own.**
+
+This may not be the rule 100% of the time but I believe that it applies **almost** all of the time. It certainly applied to me.
+
+Another of my goals was to continue with side projects. Last year I wrote about how hard it is to finish things, however people like [levels.io](https://levels.io) and [John Sonmez](http://simpleprogrammer.com/) really helped me to understand the value of finishing things. With this inspiration I was nervous, happy, excited, exhausted (ultimately a mixture of emotions) to release [http://horu.io](http://horu.io). It’s the first side project of my career that I’ve taken to a level of completion. **Goal satisfied!**
+
+However there was a definite **fail** on the list of things to achieve last year. I wanted to get back to the gym and playing squash again – this definitely didn’t happen. I’m not too sure why – I seriously lack the motivation to go to the gym as it seems to take up an entire evening of precious time. As a small counter balance, I did manage to run the Salford 10k which was an amazing experience!
+
+### Next year
+
+**-**	Continue on the road to Javascript mastery. I’m not entirely sure it’s possible but I’ll try.
+**-**	Try a new programming language. (Elm I’m looking at you).
+**-**	At least one blog post a month (but secretly aiming for two).
+**-**	‘Finish’ HORU.io.
+**-**	Do another 10k run.
+**-**	Build cool things outside of work.
+**-**	Read a book a month.
+**-**	‘Do something new’. I wrote this in my notepad recently, I would like to go to Asia this year.
+
+Last year I left you with some pictures of the Lake District. This years Christmas was a little different….
+
+<blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/_uQ_7hQAFT/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Alex Perry (@pezza3434)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-12-25T17:18:27+00:00">Dec 25, 2015 at 9:18am PST</time></p></div></blockquote>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
