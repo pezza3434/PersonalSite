@@ -118,6 +118,15 @@
     }
 }
 
+.post {
+
+    table {
+        padding: 15px 0px;
+    }
+
+}
+
+
 .post-social-icons {
 
     position:relative;
@@ -157,6 +166,7 @@ blockquote:before {
 blockquote p {
     display: inline;
 }
+
 @media (max-width: $screen-xs) {
     .pagination {
         .previous,
