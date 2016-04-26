@@ -53,7 +53,7 @@ I’m not actually sure. I’m sure you could live your life either way.
 
 But what I do know is how many people talk about the monotony of their daily lives, especially in relation to work. I occasionally get this ‘daily grind’ feeling myself – even if you love your job (which I do), the fact of simply going to work every day 9-5 can make it impossible to avoid.
 
-Leaning something new can help to introduce huge changes in your life that can make things feel new and exciting again – it has certainly worked for me.
+Learning something new can help to introduce huge changes in your life that can make things feel new and exciting again – it has certainly worked for me.
 
 I challenge you to give it a try. Spend even a single day learning something new.
 
