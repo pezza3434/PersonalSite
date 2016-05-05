@@ -18,13 +18,13 @@ You may or may not know that just under 6 months ago I released an app called [H
 
 I find it hard to say whether or not it was a success.
 
-In many ways it was a success. It was moderately well received on product hunt (link) and even featured on their front page. This alone resulted in over 150+ signups and around 10,000 ‘ratings’ (on the app you rate peoples faces, guessing their age), in only a few days.
+In many ways it was a success. It was moderately well received on [product hunt](https://www.producthunt.com/tech/horu) and even featured on their front page. This alone resulted in over 150+ signups and around 10,000 ‘ratings’ (on the app you rate peoples faces, guessing their age), in only a few days.
 
 People seemed to enjoy using it, and people were continually signing up. All good then right?
 
 Unfortunately, I was pouring **hundreds of hours** into the project for what seemed like very little gain.
 
-As you may know yourself, once you get past the excitement of a new project, they become increasingly difficult to continue and complete. I wrote about this before (link), and this is probably a reason why most side projects don’t see the light of day.
+As you may know yourself, once you get past the excitement of a new project, they become increasingly difficult to continue and complete. I wrote about this before [here](http://alexperry.io/personal/2015/06/08/finishing-is-hard.html), and this is probably a reason why most side projects don’t see the light of day.
 
 I wanted to build something that had the potential to sustain itself (monetarily) and maybe even sustain me one day. Unfortunately I didn’t see that in the future of Horu and my motivation for the project soon disappeared.
 
@@ -62,7 +62,7 @@ This means that managing the events on your site is as simple as adding or remov
 
 I believe the idea meets my first requirement of building something people want and crucially, it is something that I can charge for.
 
-I love the SaaS (Software as a Service) model. It makes a lot of sense me. Good software takes constant maintenance; with reoccurring monthly revenue stream you are given the time to constantly improve the product and offer the products customers quality customer service.
+I love the SaaS (Software as a Service) model. It makes a lot of sense to me. Good software takes constant maintenance; with a reoccurring monthly revenue stream you are given the time to constantly improve the product and offer quality customers service.
 
 I see other developers selling eBooks and info products. I considered this as I enjoy writing and have had successful ‘how-to’ blog posts in the past. There’s certainly a chance that I could make it work.
 
