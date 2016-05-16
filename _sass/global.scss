@@ -9,6 +9,11 @@ body {
     border-top: 4px solid #444;
     font-size:14px;
 }
+
+iframe {
+    border: 0;
+}
+
 a {
     text-decoration: none;
     color: #aa3939;
@@ -34,9 +39,17 @@ hr {
     color: #eaeaea;
     border: 1px dashed;
 }
+
 .narrow-container {
     max-width: 700px;
 }
+
+.url_blog_ {
+    .narrow-container {
+        max-width: 1000px;
+    }
+}
+
 #fullstrip {
     width: 100%;
     background: #000;
