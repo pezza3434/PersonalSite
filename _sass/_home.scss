@@ -1,138 +1,139 @@
-html{
-  height:100%;
+html {
+    height: 100%;
 }
-
-body{
-  height:100%;
-  padding:0;
-  margin:0;
-  font-family:$base-font-family;
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: $base-font-family;
 }
-
-p{
-  font-family: $secondary-font-family;
+p {
+    font-family: $secondary-font-family;
 }
-
-.url_index{
-  .site-header{
-    position:absolute;
-    left:0;
-    right:0;
-  }
-  .site-title{
-    display:none;
-  }
-
-  footer{
-    height:0px;
-  }
+.homepage {
+    .site-header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        color: #fff;
+    }
+    .site-title {
+        display: none;
+    }
+    footer {
+        height: 0;
+    }
 }
-
-.homepage-banner{
-  height:100%;
-  background-image:url(/images/alexbackground-optimised-small.jpg);
-  width:100%;
-  display:table;
-  background-size: cover;
-
-  .vertical{
-    display:table-cell;
-    text-align:center;
-    padding-top:180px;
-  }
-
-  .home-header-main{
-    font-size: 54px;
+.homepage-banner {
+    height: 100%;
+    background-image: url("/images/alexbackground-optimised-small-new.jpg");
+    width: 100%;
+    display: table;
+    background-size: cover;
+    color: #fff;
+    .vertical {
+        position: absolute;
+        left: 25px;
+        bottom: 20px;
+    }
+    .home-header-main {
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    .home-header-sub {
+        font-weight: lighter;
+    }
+}
+.social-icons {
+    display: inline;
+    a {
+        padding: 0;
+        margin: 0;
+    }
+    i {
+        padding: 0 4px;
+    }
+}
+.copyright {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
     font-weight: lighter;
-    color:#444444;
-  }
-
-  .home-header-sub{
-    font-weight:lighter;
-  }
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
 }
-
-.social-icons{
-
-  display:inline;
-
-  a{
-    padding:0;
-    margin:0;
-  }
-
-  i{
-    padding: 0px 4px;
-  }
+.site-links {
+    .home {
+        display: none;
+    }
 }
-
-.site-links{
-  .home{
-    display:none;
-  }
-}
-
 @media (max-width: $screen-sm) {
-
-  .site-title{
-    display:none;
-  }
-
-  .site-links{
-    .home{
-      display:inline-block;
+    .copyright {
+        display:none;
     }
-  }
-
-  .site-links a{
-    font-size:16px;
-  }
-
-  .social-icons{
-    text-align: center;
-    display: block;
-    padding: 10px;
-    font-size: 20px;
-  }
-
-  .site-header{
-    .container{
-      margin:0px;
-      padding:0px;
+    .site-title {
+        display: none;
     }
-  }
+    .site-links {
+        .home {
+            display: inline-block;
+        }
+    }
+    .site-links a {
+        font-size: 16px;
+    }
+    .social-icons {
+        text-align: center;
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .site-header {
+        .container {
+            margin: 0;
+            padding: 0;
+        }
+    }
 }
-
 @media (max-width: $screen-sm) {
     .homepage-banner .vertical {
-        padding-top:90px;
+        padding-top: 90px;
     }
-    .homepage-banner{
-      .home-header-main{
-        font-size: 40px;
-      }
-      .home-header-sub{
-        font-size:12px;
-      }
+    .homepage-banner {
+        .home-header-main {
+            font-size: 40px;
+        }
+        .home-header-sub {
+            font-size: 12px;
+        }
+    }
+    .homepage-banner {
+        .vertical {
+            position: absolute;
+            bottom: 25px;
+            text-align:center;
+            left: 0;
+            right: 0;
+        }
     }
 }
-
 //custom media queries for homepage image
-
 @media (max-width: 500px) {
-  .homepage-banner{
-    background-image:url(/images/alexbackground-optimised-small.jpg);
-  }
+    .homepage-banner {
+        background-image: url("/images/alexbackground-optimised-small-new.jpg");
+    }
 }
 @media (max-width: 750px) {
-  .homepage-banner{
-    background-image:url(/images/alexbackground-optimised-medium.jpg);
-  }
-
+    .homepage-banner {
+        background-image: url("/images/alexbackground-optimised-medium-new.jpg");
+        background-position: bottom left;
+    }
 }
 @media (min-width: 751px) {
-  .homepage-banner{
-    background-image:url(/images/alexbackground-optimised.jpg);
-  }
-
+    .homepage-banner {
+        background-image: url("/images/alexbackground-optimised-new.jpg");
+        background-position: left;
+    }
 }
