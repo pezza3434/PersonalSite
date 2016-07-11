@@ -1,3 +1,13 @@
+.about {
+    #fullstrip {
+        background-image: url("/images/header-images/barcelona.jpg");
+
+        .title {
+            padding: 150px 0px;
+        }
+    }
+}
+
 .bio{
   .title{
     padding: 14px 15px;
@@ -29,12 +39,12 @@
   }
 
   .skill{
-      background: #eaeaea;
       padding: 8px 11px;
       margin: 6px 0px;
       display: block;
       border-radius:2px;
-      font-size:12px;
+      font-size:16px;
+      font-weight:bold;
       color: #ffffff;
 
     i{
@@ -43,13 +53,13 @@
   }
 
   .interest{
-    background: #AA3939;
     padding: 8px 11px;
     margin: 6px 0px;
     display: block;
     border-radius:2px;
     font-size:12px;
-    color: #ffffff;
+    color: #8a8a8a;
+    font-size: 14px;
 
     &.large{
       width:100%
@@ -61,9 +71,8 @@
   }
 
   .skill:hover {
-    background: #aa3939;
     color: #ffffff;
-    cursor: pointer;
+    text-decoration:none;
   }
 
   .skill-box{
@@ -75,27 +84,27 @@
   }
 
   .skill.html{
-    background: #E34F42;
+    color: #E34F42;
   }
 
   .skill.css{
-    background: #80628B;
+    color: #80628B;
   }
 
   .skill.javascript{
-    background: #C6CCD5;
+    color: #C6CCD5;
   }
 
   .skill.jquery{
-    background: #4BBFA5;
+    color: #4BBFA5;
   }
 
   .skill.angular{
-    background: #F39A3E;
+    color: #F39A3E;
   }
 
   .skill.php{
-    background: #8892BF;
+    color: #8892BF;
   }
 
   .skill.more{

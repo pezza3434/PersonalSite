@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Building useful things is hard"
+image: '/images/posts/eventcalendarapp-progress/building.jpg'
 date:   2016-06-05 08:02:00
 categories: personal
 description: A summary of where I am at the moment with eventcalendarapp.com and where I want to take it in the future.

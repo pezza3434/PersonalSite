@@ -2,6 +2,7 @@
 layout: post
 title:  "The importance of learning new things"
 date:   2016-04-26 08:02:00
+image: '/images/posts/learning-something-new/barcelonabuilding.jpg'
 categories: personal
 description: A quick reminder on how these three functions work and the uses of each.
 ---

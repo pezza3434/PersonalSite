@@ -1,3 +1,14 @@
+.blog {
+    #fullstrip {
+        background-image: url("/images/header-images/blog.jpg");
+        background-position:top;
+
+        .title {
+            padding: 150px 0px;
+        }
+    }
+}
+
 .mailing-list {
     padding-top: 9px;
     button {
@@ -51,6 +62,11 @@
 }
 .post-excerpt {
     font-size: 18px;
+    &__image {
+        height:200px;
+        background-size: cover;
+        margin: 15px 0px;
+    }
     p {
         margin: 7px 0;
     }

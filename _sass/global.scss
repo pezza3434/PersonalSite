@@ -44,7 +44,7 @@ hr {
     max-width: 700px;
 }
 
-.narrow-container.post-index {
+.blog .narrow-container {
     max-width: 1000px;
 }
 
@@ -62,6 +62,14 @@ hr {
         font-weight: bold;
         color: #fff;
         padding: 50px 0;
+    }
+
+    &.has-image {
+        background-position: center;
+
+        .title {
+            padding: 150px 0px;
+        }
     }
 }
 h1 {

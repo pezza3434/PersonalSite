@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="fullstrip">
+<div id="fullstrip" class="{% if page.image %}has-image {% endif %}" {% if page.image %}style="background-image: url('{{ page.image }}')" {% endif %}>
     <div class="container narrow-container">
         <div class="title">{{ page.title }}</div>
     </div>
