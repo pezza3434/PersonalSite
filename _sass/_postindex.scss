@@ -174,22 +174,26 @@
 }
 
 blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #aa3939;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-family: "noto serif";
+  line-height: 1.5;
+  font-size: 20px;
+  color: #3d3d3d;
 }
 blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 blockquote p {
-    display: inline;
+  display: inline;
 }
 
 @media (max-width: $screen-xs) {
