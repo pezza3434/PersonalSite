@@ -12,7 +12,7 @@ layout: default
 </div>
 
 <div class="container narrow-container post-index">
-    <div class="col-md-8">
+    <div class="col-md-12">
         {% for post in paginator.posts %}
         <div class="post-wrapper">
             <h1 class="post-name"><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -36,10 +36,3 @@ layout: default
           {% endif %}
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="second-column-title">Upcoming conferences</div>
-<div id="app-container"></div><script>window.eventCalId=23;var mainScript=document.createElement("script");mainScript.setAttribute("src","https://api.eventcalendarapp.com/calendar-build/main.js"),document.head.appendChild(mainScript);var stylesheet=document.createElement("link");stylesheet.setAttribute("href","https://api.eventcalendarapp.com/calendar-build/styles.css"),stylesheet.setAttribute("rel","stylesheet"),document.head.appendChild(stylesheet);var fontAwesome=document.createElement("link");fontAwesome.setAttribute("href","https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"),fontAwesome.setAttribute("rel","stylesheet"),document.head.appendChild(fontAwesome);</script>
-
-
-
-</div>

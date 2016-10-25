@@ -1,10 +1,36 @@
 ---
 layout: default
 ---
+<script>
+    var loaded = false;
+
+    function loadBg(event) {
+        if (loaded) {
+            return;
+        }
+
+        var img = new Image();
+
+        img.onload = function () {
+            console.log('onload')
+            document.querySelector('.homepage-banner').className += ' image--loaded';
+            loaded = true;
+        };
+
+        img.src = './images/salfordquays.jpg';
+    }
+
+    if (window.addEventListener) {
+        window.addEventListener('resize', loadBg);
+        window.addEventListener('load', loadBg);
+    } else {
+        loadBg()
+    }
+</script>
+
     <div class="homepage-banner">
         <div class="vertical">
             <div class="home-header-main">Alexander Perry</div>
             <div class="home-header-sub">Manchester Based Web Developer</div>
         </div>
-        <div class="copyright">Photo by <a href="https://www.instagram.com/alexmeah/">Alex Meah</a></div>
     </div>

@@ -26,11 +26,17 @@ p {
 }
 .homepage-banner {
     height: 100%;
-    background-image: url("/images/alexbackground-optimised-small-new.jpg");
     width: 100%;
     display: table;
     background-size: cover;
     color: #fff;
+    background-image: url("../images/salfordquays-blur.jpg");
+    transition: background 2s linear;
+
+    &.image--loaded {
+        background-image: url("../images/salfordquays.jpg");
+    }
+
     .vertical {
         position: absolute;
         left: 25px;
@@ -117,23 +123,5 @@ p {
             left: 0;
             right: 0;
         }
-    }
-}
-//custom media queries for homepage image
-@media (max-width: 500px) {
-    .homepage-banner {
-        background-image: url("/images/alexbackground-optimised-small-new.jpg");
-    }
-}
-@media (max-width: 750px) {
-    .homepage-banner {
-        background-image: url("/images/alexbackground-optimised-medium-new.jpg");
-        background-position: bottom left;
-    }
-}
-@media (min-width: 751px) {
-    .homepage-banner {
-        background-image: url("/images/alexbackground-optimised-new.jpg");
-        background-position: left;
     }
 }
