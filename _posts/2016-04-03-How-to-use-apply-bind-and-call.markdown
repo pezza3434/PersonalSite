@@ -40,7 +40,7 @@ sayHello.call(context, firstName, secondName); //Hello Alex Perry
 When I use call, I’m almost always using it to convert the ‘arguments’ object to a normal array so that I can iterate over it for some reason. That looks like this:
 
 ```javascript
-Array.prototype.slice.apply(arguments)
+Array.prototype.slice.call(arguments)
 ```
 
 [Heres a closer look as to why this works](http://stackoverflow.com/questions/960866/how-can-i-convert-the-arguments-object-to-an-array-in-javascript#answer-960870)
